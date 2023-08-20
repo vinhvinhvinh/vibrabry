@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background: #000;
+    }
+  </style>
+</head>
+
+<body>
+
+  <button id="btnnn">Click</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.12.0/tsparticles.confetti.bundle.min.js"></script>
+  <script src="./script.js"></script>
+  <script>
+    var btn = document.getElementById('btnnn');
+    var shoot = function () {
+      confetti({
+        particleCount: 100,
+        spread: 70,
+        origin: { y: 1 },
+      });
+    }
+    btn.addEventListener('click', () => {
+      setTimeout(() => shoot(), 0);
+      setTimeout(() => shoot(), 100);
+      setTimeout(() => shoot(), 200);
+    })
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+    "woay_base_bg": {
+        "label": "Nền vòng quay",
+        "value": "images/base.png",
+        "type": "image"
+    },
+    "woay_border": {
+        "label": "Viền vòng quay",
+        "value": "images/border.png",
+        "type": "image"
+    },
+    "woay_btn_bg": {
+        "label": "Nút vòng quay",
+        "value": "images/button.png",
+        "type": "image"
+    }
+}

@@ -1,0 +1,159 @@
+{
+  "missions": [
+    {
+      "active": true,
+      "meta_type": "mission",
+      "name": "wiki",
+      "title": "Câu hỏi trắc nghiệm",
+      "format": "quiz",
+      "meta": {
+        "question": [
+          {
+            "question": "<p>1 + 1 = ?</p>",
+            "rightAnswer": 0,
+            "answer": [
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          },
+          {
+            "question": "<p>2 + 2 = ?</p>",
+            "rightAnswer": 2,
+            "answer": [
+              "2",
+              "3",
+              "4",
+              "5"
+            ]
+          },
+          {
+            "question": "<p>50 + 275 = ?</p>",
+            "rightAnswer": 3,
+            "answer": [
+              "300",
+              "310",
+              "343",
+              "325"
+            ]
+          }
+        ],
+        "quantity_per_question": 1,
+        "question_per_day": 2
+      },
+      "quantity": 2,
+      "frequency": "once",
+      "type": "turn",
+      "image": "https://app.woay.vn/w/5cc19150-4d4d-4617-8ea0-ea78bd1913ea/assets/68854107-e310-4ebf-9d94-aec6b399100c-quiz.png",
+      "description": "Trả lời 2 câu hỏi mỗi ngày. Với mỗi câu trả lời đúng bạn nhận được thêm 1 lượt chơi",
+      "limit": 1
+    },
+    {
+      "active": true,
+      "meta_type": "mission",
+      "name": "gold_hour",
+      "title": "Đăng nhập giờ vàng",
+      "format": "gold_hour",
+      "meta": {
+        "from": "08:00",
+        "to": "09:30"
+      },
+      "quantity": 2,
+      "frequency": "daily",
+      "type": "turn",
+      "image": "https://app.woay.vn/w/5cc19150-4d4d-4617-8ea0-ea78bd1913ea/assets/d638a2b9-529e-4021-a2df-c9c09ccbcd48-gold.png",
+      "description": "Đăng nhập vào lúc 8:00 - 9:30 hằng ngày để được nhận thêm 3 lượt chơi",
+      "limit": 1
+    },
+    {
+      "active": true,
+      "meta_type": "mission",
+      "name": "login",
+      "title": "Đăng nhập hàng ngày",
+      "meta": "",
+      "quantity": 1,
+      "frequency": "daily",
+      "type": "turn",
+      "image": "https://app.woay.vn/w/5cc19150-4d4d-4617-8ea0-ea78bd1913ea/assets/6bcd75da-dc8a-4da9-996e-b3d18ea69c26-login.png",
+      "description": "Đăng nhập mỗi ngày để được nhận thêm 1 lượt chơi",
+      "limit": 1
+    },
+    {
+      "active": true,
+      "meta_type": "mission",
+      "name": "share_facebook",
+      "title": "Chia sẻ chương trình",
+      "meta": "",
+      "quantity": 2,
+      "frequency": "daily",
+      "type": "turn",
+      "image": "https://app.woay.vn/w/5cc19150-4d4d-4617-8ea0-ea78bd1913ea/assets/759801ee-c3c6-43fa-b1d3-397efe8f7f0b-share.png",
+      "description": "Mỗi ngày bạn có thể chia sẻ 1 lần để nhận thêm 2 lượt chơi",
+      "limit": 1
+    },
+    {
+      "active": true,
+      "meta_type": "mission",
+      "name": "explore_store",
+      "title": "Khám phá cửa hàng (check-in)",
+      "format": "qrcode",
+      "meta": {
+        "hash": "00be35731864a3c2451e9c74147ff6ac"
+      },
+      "quantity": 10,
+      "frequency": "daily",
+      "type": "turn",
+      "image": "https://app.woay.vn/w/5cc19150-4d4d-4617-8ea0-ea78bd1913ea/assets/04a6344d-8ea1-4d36-9ed1-fe208499777e-checkin.png",
+      "description": "Tới cửa hàng check-in để được nhận thêm 10 lượt chơi.",
+      "limit": 1
+    },
+    {
+      "active": true,
+      "meta_type": "mission",
+      "name": "invite_friend",
+      "title": "Mời bạn vào chơi",
+      "meta": "",
+      "quantity": 1,
+      "frequency": "unlimited",
+      "type": "turn",
+      "image": "https://app.woay.vn/w/5cc19150-4d4d-4617-8ea0-ea78bd1913ea/assets/2b15d9ab-4164-4a04-ac52-d1def8a39bd6-invite.png",
+      "description": "Với mỗi người bạn giới thiệu thành công, bạn sẽ nhận được 3 lượt chơi.",
+      "limit": 1
+    },
+    {
+      "active": true,
+      "meta_type": "mission",
+      "is_need_sequence": false,
+      "mission_event_name": "login_cumulative",
+      "name": "login_cumulative",
+      "title": "Điểm danh tích lũy",
+      "meta": null,
+      "limit": 1,
+      "description": "Điểm danh tích lũy",
+      "image": "https://app.woay.vn/w/5cc19150-4d4d-4617-8ea0-ea78bd1913ea/assets/6bcd75da-dc8a-4da9-996e-b3d18ea69c26-login.png",
+      "type": "turn",
+      "rewards": [
+        1,
+        1,
+        3,
+        2,
+        2,
+        3,
+        5
+      ],
+      "special_milestone": 3,
+      "milestone_get_login_reward": 5,
+      "frequency": "daily",
+      "frequency_type": "daily",
+      "base_quantity": 5,
+      "max_queue": 7,
+      "quantity": 5,
+      "times": 1
+    }
+  ],
+  "MAX_POINT": 1000,
+  "qrcode": {
+    "secret": "pcLO6cfn"
+  }
+}

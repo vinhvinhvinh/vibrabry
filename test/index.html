@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo</title>
+
+  <style>
+    .footer-p {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .paragraph {
+      width: 32%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .paragraph-title {
+      font-size: 16px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="footer-p">
+    <div class="paragraph">
+      <span class="paragraph-title">Interger volutlpat</span>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, asperiores. Praesentium asperiores error quia
+      </p>
+    </div>
+    <div class="paragraph">
+      <span class="paragraph-title">Interger volutlpat</span>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, asperiores. Praesentium asperiores error quia
+      </p>
+    </div>
+    <div class="paragraph">
+      <span class="paragraph-title">Interger volutlpat</span>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, asperiores. Praesentium asperiores error quia
+      </p>
+    </div>
+  </div>
+
+
+
+  <div id="value"></div>
+  <script src="./file1.js"></script>
+  <script src="./file2.js"></script>
+  <script>
+    var file1 = document.getElementById("value").innerHTML = '' + value1 + value2;
+    console.log('value1', value1);
+    console.log('value2', value2);
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<style>
+    .btn-woay {
+        position: absolute;
+        width: 23%;
+        left:  38.3%;
+        top: 27.5%;
+    }
+    #woay-bg {
+        position: relative;
+        width: 720px;
+        height: 720px;
+    }
+    #woay-wheel {
+        position:absolute;
+        width: 85%;
+        left: 7.2%;
+        top: 9.5%;
+    }
+    
+    .woay-border {
+        width: 110%;
+        position: absolute;
+        left: -7%;
+    }
+
+    .woay-base {
+        width: 206%;
+        position: absolute;
+        left: -51%;
+        top: -52%;
+    }
+
+    @media(max-width: 991px) {
+        #woay-bg {
+            width: 100% !important;
+            max-width: 720px;
+            padding-bottom: 100%;
+            height: auto;
+        }
+    }
+</style>
+<div class="box-wheel">
+        <div id="woay-bg">
+            <img class="woay-base" src="<%= woay_base_bg %>" alt="">
+            <img class="woay-border" src="<%= woay_border %>" alt="">
+            <canvas id="woay-wheel" width=800 height=800></canvas>
+            <img class="btn-woay" src="<%= woay_btn_bg %>">
+        </div>
+</div>

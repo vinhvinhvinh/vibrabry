@@ -1,0 +1,159 @@
+{
+  "tabs": [
+    {
+      "title": "Hình ảnh",
+      "id": "Home",
+      "icon": "icon-image",
+      "groups": [
+        {
+          "attributes": [
+            {
+              "label": "Logo (300x80)",
+              "type": "image",
+              "name": "logo",
+              "size": "119x34",
+              "value": "https://app.woay.vn/w/e89eb96c-31c9-457f-a91e-93d21e7ffb0c/assets/9ccf0b33-2512-46e4-93d7-a9bd707a08c6-woay-logo-300_1554275160.png"
+            },
+            {
+              "label": "Hình nền trang (1920x1080)",
+              "type": "image",
+              "name": "main_background",
+              "size": "1920x1080",
+              "value": "https://sprout.woay.io/w/ba746010-c922-4e7a-90ce-1a9c9b9d58de/assets/25320914-eff2-440f-9b2a-49f006cf9b69-2074404f-6c5c-4658-bc43-2c3e8a444dda-Asset-43.jpg"
+            },
+            {
+              "label": "Banner trên (470x200)",
+              "type": "image",
+              "name": "top_banner",
+              "size": "1920x1080",
+              "value": "https://sprout.woay.io/w/ba746010-c922-4e7a-90ce-1a9c9b9d58de/assets/405aa24f-445e-4281-840e-afc6921104fb-a006f16e-a786-4465-9203-74afba880a43-470x200.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nút bấm",
+      "id": "Button",
+      "icon": "icon-new-settings",
+      "groups": [
+        {
+          "attributes": [
+            {
+              "label": "Nút chơi game",
+              "type": "btn_playgame",
+              "name": "button_playgame",
+              "size": "(140x480)",
+              "btn_name_value": "Chơi ngay",
+              "value": "https://app.woay.vn/w/b66c112b-41f5-4082-907e-d1b8d60e313d/assets/310bd03a-14ba-4e57-9c58-32ec5b25270e.png"
+            },
+            {
+              "label": "Quà tặng",
+              "type": "btn_gift",
+              "name": "button_gift",
+              "size": "(140x480)",
+              "btn_name_value": "Quà tặng",
+              "value": "https://app.woay.vn/w/b66c112b-41f5-4082-907e-d1b8d60e313d/assets/310bd03a-14ba-4e57-9c58-32ec5b25270e.png"
+            },
+            {
+              "label": "Bài viết",
+              "type": "btn_blog",
+              "name": "button_blog",
+              "size": "(140x480)",
+              "btn_name_value": "Bài viết",
+              "link_to": [],
+              "value": "https://app.woay.vn/w/b66c112b-41f5-4082-907e-d1b8d60e313d/assets/310bd03a-14ba-4e57-9c58-32ec5b25270e.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Nội dung chính",
+      "id": "Voucher",
+      "icon": "icon-file-text",
+      "groups": [
+        {
+          "attributes": [
+            {
+              "label": "Hiện seeding người chơi",
+              "type": "switch",
+              "name": "random_user_enable",
+              "value": true
+            },
+            {
+              "label": "Hướng dẫn tham gia",
+              "type": "editor",
+              "name": "guide",
+              "value": "<p style=\"text-align: center;\"><span style=\"font-size: 18pt;\"><strong>MỞ QU&Agrave; HẾT M&Igrave;NH - NHẬN QU&Agrave; HẾT &Yacute;</strong></span></p>\n<p><strong>1. Đối tượng tham gia tr&ograve; chơi:</strong>&nbsp;Tất cả những người d&ugrave;ng online tr&ecirc;n to&agrave;n quốc truy cập v&agrave;o đường dẫn chương tr&igrave;nh</p>\n<p><strong>2. Nơi nhận qu&agrave;:</strong>&nbsp;Inbox Fanpage, Website hoặc tại chuỗi cửa h&agrave;ng</p>\n<p><strong>3. Thời gian diễn ra chương tr&igrave;nh:</strong>&nbsp;Từ ng&agrave;y&nbsp;<strong>06/01/2020</strong>&nbsp;đến hết ng&agrave;y&nbsp;<strong>22/01/2020</strong></p>\n<p><strong>4. Cơ cấu giải thưởng:</strong></p>\n<ul>\n<li>Giải đặc biệt [ Voucher 2.000.000 ] x 1</li>\n<li>Giải nh&igrave; [ Voucher 1.000.000 ] x 3</li>\n<li>Giải ba [ Voucher 400.000 ] x 20</li>\n<li>H&agrave;ng ng&agrave;n giải phụ: Voucher 20k, Voucher 50k, Voucher 10%</li>\n</ul>\n<p>&nbsp;</p>\n<p><strong>5. C&aacute;ch thức tham gia:</strong>&nbsp;Người chơi truy cập v&agrave;o đường dẫn chương tr&igrave;nh v&agrave; l&agrave;m theo c&aacute;c bước sau:</p>\n<ul>\n<li><strong>Bước 1:</strong>&nbsp;Đăng nhập bằng t&agrave;i khoản Facebook v&agrave; điền đầy đủ th&ocirc;ng tin.</li>\n<li><strong>Bước 2:</strong>&nbsp;Nhấn v&agrave;o giữa v&ograve;ng quay để thực hiện quay.&nbsp;</li>\n<li><strong>Bước 3:</strong>&nbsp;Copy m&atilde; tr&uacute;ng thưởng gửi cho Shop qua Inbox Facebook hoặc sử dụng m&atilde; để mua h&agrave;ng</li>\n</ul>"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Popup trúng thưởng",
+      "id": "reward-popup",
+      "icon": "icon-file-text",
+      "groups": [
+        {
+          "attributes": [
+            {
+              "label": "Tiêu đề Popup trúng thưởng",
+              "type": "text",
+              "name": "voucher_small_title",
+              "value": "Chúc mừng bạn đã nhận được phần quà"
+            },
+            {
+              "label": "Lưu ý Popup trúng thưởng",
+              "type": "text",
+              "name": "voucher_apply",
+              "value": "Số lượng có hạn vậy nên mong quý khách hàng inbox để được nhận phần thưởng."
+            },
+            {
+              "label": "Mô tả hình",
+              "type": "demo_img",
+              "name": "demo_img",
+              "value": "https://game.cnvloyalty.com/w/9b992ffd-a3a4-4bb7-a49a-678a4af22f29/assets/b57e8d45-4321-4214-b50c-9ebba43a454c.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Âm thanh",
+      "id": "Sound",
+      "icon": "icon-music",
+      "groups": [
+        {
+          "attributes": [
+            {
+              "type": "audio",
+              "name": "background_audio",
+              "label": "Nhạc nền",
+              "value": "https://cdn.jsdelivr.net/gh/woayst/common@1.2/sounds-v2/common/background/O-Ghencovy.mp3"
+            },
+            {
+              "type": "audio",
+              "name": "button_click_audio",
+              "label": "Âm thanh nút bấm",
+              "value": "https://cdn.jsdelivr.net/gh/woayst/common@1.2/sounds-v2/common/button-click/O-Standard-1.mp3"
+            },
+            {
+              "type": "audio",
+              "name": "award_audio",
+              "label": "Âm thanh trúng thưởng",
+              "value": "https://cdn.jsdelivr.net/gh/woayst/common@1.2/sounds-v2/common/award/O-Standard-1.mp3"
+            },
+            {
+              "type": "audio",
+              "name": "rolling_audio",
+              "label": "Âm thanh vòng quay",
+              "value": "https://cdn.jsdelivr.net/gh/woayst/common@1.2/sounds-v2/lucky-draw/rollling/O-Standard-1.mp3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
